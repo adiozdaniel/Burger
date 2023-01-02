@@ -19,6 +19,7 @@ const buildControls = props => (
             />
         ))}
         <button
+            onClick={props.orderNow}
             disabled={!props.purchaseable}
             className="OrderButton"
             // className="bg-slate-900 text-yellow-200 px-6 py-1 rounded-full shadow-lg shadow-orange-900 hover:bg-slate-700 hover:text-yellow-400"

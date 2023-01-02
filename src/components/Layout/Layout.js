@@ -1,6 +1,6 @@
 import React from "react";
-import Aux from '../../hoc/Auxillary'
-import './Layout.css';
+import Aux from "../../hoc/Auxillary"
+import "./Layout.css";
 
 const layout = (props) => (
     <Aux>
@@ -9,7 +9,7 @@ const layout = (props) => (
             SideDrawer, 
             Backdrop
         </div>
-        <main className='LayoutContent' >
+        <main className='LayoutContent flex flex-col justify-center items-center' >
             {props.children}
         </main>
     </Aux>
