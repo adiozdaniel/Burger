@@ -1,5 +1,5 @@
 import React, { Component} from "react";
-import Aux from "../../../hoc/Auxillary";
+import Aux from "../../Auxillary/Auxillary";
 import "./Modal.css"
 import Backdrop from "./Backdrop";
 

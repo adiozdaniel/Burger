@@ -1,9 +1,9 @@
 import React from "react";
-import Logo from "../../Layout/Logo/Logo";
+import Logo from "../../../hoc/Layout/Logo/Logo";
 import NavigationItems from "../NavigationItems/NavigationItems"
 import './SideDrawer.css'
-import Backdrop from "../../Layout/Modal/Backdrop";
-import Aux from "../../../hoc/Auxillary";
+import Backdrop from "../../../hoc/Layout/Modal/Backdrop";
+import Aux from "../../../hoc/Auxillary/Auxillary";
 
 const sideDrawer = (props) => {
 
